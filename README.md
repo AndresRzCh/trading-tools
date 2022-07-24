@@ -14,7 +14,4 @@ orders are automatically distinguished
 * ``close_positions``: Only in Binance. Automatically closes all open positions in a given market
 
 ## Disclaimer
-There are no warranties expressed or implied in this repository.  
-I am not responsible for anything done with this program.  
-You assume all responsibility and liability.  
-Use it at your own risk.  
+There are no warranties expressed or implied in this repository. I am not responsible for anything done with this program. You assume all responsibility and liability. Use it at your own risk.  
