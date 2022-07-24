@@ -6,12 +6,12 @@ Helper functions for using crypto exchanges API in a simpler way. Currently only
 * ``get_klines``: Get the candlesticks for a symbol in a timeframe during a time period
 * ``download_data``: Save the previous candlesticks into a parquet file
 * ``get_data``: Open a given parquet file
-* ``create_order``: Places an smart order. Both quantity or notional can be specified and limit / market / stop
+* ``create_order``: Only in Binance. Places an smart order. Both quantity or notional can be specified and limit / market / stop
 orders are automatically distinguished 
-* ``get_orders``: Get a list of all open orders in a given market (Spot / USDM / COINM)
-* ``cancel_orders``: Cancel all open orders in a given market 
-* ``get_positions``: Get a list of all open positions in a given market
-* ``close_positions``: Automatically closes all open positions in a given market
+* ``get_orders``: Only in Binance. Get a list of all open orders in a given market (Spot / USDM / COINM)
+* ``cancel_orders``: Only in Binance. Cancel all open orders in a given market 
+* ``get_positions``: Only in Binance. Get a list of all open positions in a given market
+* ``close_positions``: Only in Binance. Automatically closes all open positions in a given market
 
 ## Disclaimer
 There are no warranties expressed or implied in this repository.  
